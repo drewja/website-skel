@@ -5,7 +5,8 @@
   "watch": {
     "build": {
       "patterns": [
-        "src", "src/static"
+        "src",
+        "src/static"
       ],
       "extensions": "js,css,html",
       "legacyWatch": true,
