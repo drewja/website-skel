@@ -32,6 +32,6 @@ cd into the newly created project
 
 Editing the skel directory:
 
-Every time you make changes to your skeleton you must run uninstall.sh followed by install.sh and your good to go.
+Every time you make changes to your skeleton you must run uninstall.sh followed by install.sh to bind the skeleton the cli.
 
-TODO: support multiple skeletons selectable from the cli or maybe multiple cli's that are bound to different skeleton files.
+TODO: support multiple skeletons selectable from the cli or maybe multiple cli's that are bound to different skeletons.
