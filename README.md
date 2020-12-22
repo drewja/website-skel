@@ -24,9 +24,11 @@ cd into the newly created project
     ...
     someguy@computer:~/mydir/my-project$ npm run start &
     ...
+    # note what port your serving on
+    # point your broswer to localhost:"port"
     #open your editor of choice
     someguy@computer:~/mydir/my-project$ code .
-
+    
 
 Editing the skel directory:
 
