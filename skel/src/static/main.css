@@ -1,0 +1,12 @@
+.contain {
+    background-color: rgb(176, 135, 222);
+    width: 500px;
+    height: 500px;
+    border: black;
+    border-radius: 50%;
+
+}
+
+.contain > p{
+    color: blue;
+}
