@@ -57,11 +57,11 @@ if __name__ == "__main__":
     try:
         print('copying files from {} to {}'.format(SKEL, dest))
         r = shutil.copytree(SKEL, dest, symlinks=False, ignore=None, copy_function=shutil.copy2, ignore_dangling_symlinks=False, 
-            dirs_exist_ok=False)
+            dirs_exist_ok=True)
         print("----------DONE-----------------")
         print("cd to {} and run 'npm install -i'".format(dest))
     except Exception as e:
         print(e)
-    print(r)
+
 
         
